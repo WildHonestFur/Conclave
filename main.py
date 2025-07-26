@@ -218,5 +218,5 @@ with mp_face_mesh.FaceMesh(
             break
 
 cap.release()
-cv2.destroyAllWindows()
 con.close()
+cv2.imshow("AI Photo", bg)
