@@ -11,7 +11,7 @@ def get_top_5_teams():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="ssvm",
+        password="****",
         database="conclave"
     )
     cursor = conn.cursor()
